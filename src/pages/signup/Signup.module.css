@@ -1,0 +1,43 @@
+.signup-form {
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 20px;
+}
+.signup-form label {
+  display: block;
+  margin: 30px auto;
+}
+.signup-form span {
+  display: block;
+  margin-bottom: 6px;
+}
+.signup-form input {
+  padding: 8px 6px;
+  font-size: 1em;
+  color: #777;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.signup-form div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #777;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+.signup-form div:focus-within {
+  outline: 1px solid black;
+}
+.signup-form input.password:focus{
+  outline: none;
+}
+.signup-form input.password {
+  border: none;
+}
+.signup-form .eyes {
+  padding-right: 15px;
+  cursor: pointer;
+}
